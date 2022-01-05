@@ -69,13 +69,13 @@
   fi
   
   # delete old simplifyd bin if exists
-  rm -f \$(command -v simplifyd) || true
+  rm -f \$(command -v edge) || true
   rm -f /usr/local/bin/edge
   ln -s /usr/local/lib/simplifyd/edge-cli /usr/local/bin/edge
 
 SCRIPT
   # test the CLI
-  LOCATION=$(command -v simplifyd)
+  LOCATION=$(command -v edge)
   echo ""
   echo "Simplifyd CLI installed successfully to $LOCATION"
   simplifyd version
