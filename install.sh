@@ -78,5 +78,5 @@ SCRIPT
   LOCATION=$(command -v edge)
   echo ""
   echo "Simplifyd CLI installed successfully to $LOCATION"
-  simplifyd version
+  # simplifyd version
 }
