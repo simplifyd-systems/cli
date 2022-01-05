@@ -40,6 +40,8 @@
   ARCH="\$(uname -m)"
   if [ "\$ARCH" == "x86_64" ]; then
     ARCH=x86_64
+  elif [[ "\$ARCH" == arm64 ]]; then
+    ARCH=arm64
   elif [[ "\$ARCH" == arm* ]]; then
     ARCH=arm
   else
@@ -53,6 +55,7 @@
   mkdir -p /usr/local/lib/simplifyd
   cd /usr/local/lib/simplifyd
 
+      https://github.com/simplifyd-systems/cli/releases/download/0.0.1/Darwin-arm64.tar.gz
   URL=https://github.com/simplifyd-systems/cli/releases/download/0.0.1/\$OS-\$ARCH.tar.gz
   TAR_ARGS="xzf"
 
