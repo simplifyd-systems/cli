@@ -4,18 +4,18 @@ The Simplifyd terminal application
 ## Installation
 Run the following command in your terminal to install the Simplifyd CLI application:
 ```
-curl https://assets.simplifyd.app/install.sh | sh
+curl https://raw.githubusercontent.com/simplifyd-systems/cli/master/install.sh | sh
 ```
 
-You can view what actions the script takes [here](https://assets.simplifyd.app/install.sh).
+You can view what actions the script takes [here](https://raw.githubusercontent.com/simplifyd-systems/cli/master/install.sh).
 
 ## Verifying your installation
-To verify your CLI installation, use the `simplifyd --version` command:
+To verify your CLI installation, use the `edge --version` command:
 
 ## Getting started
-After you install the CLI, run the `simplifyd login` command.
+After you install the CLI, run the `edge` command.
 
-If you do not already have an account you can signup for one. Run the command `simplifyd signup` to do so.
+If you do not already have an account you can signup for one. Run the command `edge` and select the `Sign up` option to do so.
 
 ## Documentation
 Access the CLI documentation [here](https://docs.simplifyd.com/cli-all-commands/).
