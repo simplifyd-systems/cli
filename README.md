@@ -18,4 +18,4 @@ After you install the CLI, run the `edge` command.
 If you do not already have an account you can signup for one. Run the command `edge` and select the `Sign up` option to do so.
 
 ## Documentation
-Access the CLI documentation [here](https://docs.simplifyd.com/cli-all-commands/).
+Access the CLI documentation [here](https://simplifyd-systems.notion.site/Edge-CLI-How-To-966eef16ccb3499681fa63b9850c6c3c).
