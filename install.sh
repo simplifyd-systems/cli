@@ -71,7 +71,7 @@
   # delete old simplifyd bin if exists
   rm -f \$(command -v edge) || true
   rm -f /usr/local/bin/edge
-  ln -s /usr/local/lib/simplifyd/edge-cli /usr/local/bin/edge
+  ln -s /usr/local/lib/simplifyd/edge /usr/local/bin/edge
 
 SCRIPT
   # test the CLI
