@@ -1,4 +1,4 @@
-# Simplifyd CLI
+# Simplifyd Edge CLI
 The Simplifyd terminal application
 
 ## Installation
