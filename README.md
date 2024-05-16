@@ -1,5 +1,5 @@
-# Simplifyd Edge CLI
-The Simplifyd terminal application
+# Simplifyd Cloud Edge CLI
+The Simplifyd Cloud terminal application
 
 ## Installation
 
