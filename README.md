@@ -12,9 +12,9 @@ curl https://raw.githubusercontent.com/simplifyd-systems/cli/master/install.sh |
 You can view what actions the script takes [here](https://raw.githubusercontent.com/simplifyd-systems/cli/master/install.sh).
 
 ### Windows
-- Download the Edge CLI executable file [here](https://github.com/simplifyd-systems/cli/releases). Make sure to choose the version that applies to your system architecture.
+- Download the latest Edge CLI executable file [here](https://github.com/simplifyd-systems/cli/releases). Make sure to choose the version that applies to your system architecture.
 - Extract the zip archive.
-- Copy the executable file `edge.exe` preferably to a folder in your system's $PATH variable. This ensures you can simply run `edge.exe` in terminal from any directory. If you don't copy the executable to a folder or directory that's in your system's $PATH variable, then remember to always use the full path to the executable whenever you run it, for example: `c:\path\to\cli\edge.exe`. 
+- Copy the executable file `edge.exe` preferably to a folder in your system's $PATH variable. This ensures you can simply run `edge.exe` in terminal from any directory. If you don't copy the executable to a folder or directory that's in your system's $PATH variable, then remember to always use the full path to the executable whenever you run it, for example: `c:\path\to\cli\edge.exe` assuming the executable was copied to the `c:\path\to\cli` directory. 
 
 ## Verifying your installation
 To verify your CLI installation, use the `edge --version` command:
