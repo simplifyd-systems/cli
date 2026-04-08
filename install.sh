@@ -47,7 +47,7 @@
   echo "Detected environment is: \$OS \$ARCH"
   echo ""
 
-  VERSION=0.1.8
+  VERSION=0.1.10
   FILENAME="edge_\${VERSION}_\${OS}_\${ARCH}.tar.gz"
   URL="https://github.com/simplifyd-systems/cli/releases/download/v\${VERSION}/\${FILENAME}"
   TAR_ARGS="xzf"
